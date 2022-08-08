@@ -138,8 +138,9 @@ h1 {
 }
 
 .FoodContainer:hover .Food1 button {
-    background: linear-gradient(322.84deg, #D76C00 10.28%, #D76C00 89.71%);
+    background: linear-gradient(163.04deg, #3E3E3E -2.33%, #201B1B 119.3%);
     cursor: pointer;
+    color: #CEEAFF;
     box-shadow: -2px 4px 3px 1px rgba(43, 43, 43, 0.25);
 }
 
@@ -208,8 +209,9 @@ h1 {
 }
 
 .FoodContainer:hover .Food2 button {
-    background: linear-gradient(322.84deg, #D76C00 10.28%, #D76C00 89.71%);
+    background: linear-gradient(163.04deg, #3E3E3E -2.33%, #201B1B 119.3%);
     cursor: pointer;
+    color: #CEEAFF;
     box-shadow: -2px 4px 3px 1px rgba(43, 43, 43, 0.25);
 }
 
@@ -278,8 +280,9 @@ h1 {
 }
 
 .FoodContainer:hover .Food3 button {
-    background: linear-gradient(322.84deg, #D76C00 10.28%, #D76C00 89.71%);
+    background: linear-gradient(163.04deg, #3E3E3E -2.33%, #201B1B 119.3%);
     cursor: pointer;
+    color: #CEEAFF;
     box-shadow: -2px 4px 3px 1px rgba(43, 43, 43, 0.25);
 }
 
