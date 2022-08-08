@@ -1,17 +1,28 @@
 body {
-    background: radial-gradient(63.04% 63.04% at 50% 50%, #D70000 60.46%, #AC0000 100%);
+    background: url(../images/Background\ pattern.png);
+    background-repeat: no-repeat;
     color: white;
+    height: 3500px;
     font-family: neuton, inter, sans-serif;
     margin: 0;
+    box-sizing: border-box;
 }
 
+
 header {
-    background-color: yellow;
+    background: url(../images/Top\ Bar.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: sticky;
+    display: flex;
+    top: 0px;
+    left: 150px;
     color: white;
     margin: 0;
-    height: 100px;
+    height: 70px;
+    padding: 15px;
     border-radius: 0px 0px 15px 0px;
-    overflow: visible;
+    box-sizing: border-box;
      }
 
 a:link, a:visited {
@@ -19,17 +30,64 @@ a:link, a:visited {
     padding: 5px;
     margin: 5px;
     text-decoration: none;
-    color: maroon;
+    height: 150px;
+    width: 250px;
+    color: black;
     box-sizing: border-box;
+    justify-content: flex-end;
+    align-items: center;
+
 
 }
  a:hover {
 color: blueviolet;
 text-align: center;
 margin: 5px;
-font-size: 1.5em;
+font-size: 1.2em;
 padding: 5px;
+height: 150px;
 width: 250px;
 box-sizing: border-box;
 text-decoration: none;
+text-align: center;
  }
+
+ .NavButton {
+    color: black;
+    font-weight: 400;
+    margin: 25px 5px 25px 5px;
+    padding: auto;
+    width: 110px;
+    box-sizing: border-box;
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    }
+
+    nav {
+    position: absolute
+    top: 0px;
+    left: 1300px;
+    
+    }
+
+    .Searchbar {
+    background-color: whitesmoke;
+    background-size: cover;
+    position: absolute; 
+    top: 20px;
+    left: 650px;
+    right: auto;
+    width: 550px;
+    height: 30px;
+    color: black;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 5px 5px 5px 15px;
+    box-sizing: border-box;
+    }
+
+    #top {
+    text-align: center;
+    clear: right;
+    }

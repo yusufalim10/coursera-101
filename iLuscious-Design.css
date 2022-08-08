@@ -1,0 +1,291 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/Background\ pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    font-family: Neuton, Inter, sans-serif;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    background-image: url(./images/Top\ Bar.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation span {
+    padding: 5px;
+    margin: 15px;
+    color: black;
+    font-weight: 400;
+
+}
+
+.navigation {
+    width: 380px;
+    padding: 25px 0px 0px 0px;
+    height: 70px;
+    box-sizing: border-box;
+    
+}
+
+.logo {
+    justify-self: flex-start;
+}
+
+.searchbar {
+    justify-self: center;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 15px;
+    width: 35%;
+    height: 30px;
+    padding: 3px 0px 0px 25px;
+    box-sizing: border-box;
+}
+
+.tagline {
+    font-weight: 700;
+    word-spacing: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.FoodCards {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.FoodContainer {
+    position: relative;
+    border: 5px solid #D76C00;
+    border-radius: 20px;
+    height: 450px;
+    width: 300px;
+    box-shadow: -14px 17px 30px 13px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.Food1 {
+    position: absolute;
+    top: 170px;
+    height: 280px;
+    width: 290px;
+    background: linear-gradient(322.84deg, #D76C00 10.28%, #D76C00 89.71%);
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 45px 75px 70px 65px;
+    transition: 0.2s;
+}
+
+.Food1 h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.Food1 li {
+    position: relative;
+    left: -30px;
+    top: -15px;
+    list-style: none;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.Food1 button {
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    left: 80px;
+    bottom: 25px;
+    border: none;
+    border-radius: 7px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #CEEAFF 100%);
+    font-weight: 700;
+}
+
+.Food1 img {
+    position: absolute;
+    left: 8px;
+    top: -125px;
+    width: 250px;
+    height: 180px;
+    transition: 0.2s;
+}
+
+.FoodContainer:hover {
+    border: 5px solid #CEEAFF;
+}
+
+.FoodContainer:hover .Food1 {
+    background: linear-gradient(180deg, #FFFFFF 0%, #CEEAFF 100%);
+    color: black;
+}
+
+.FoodContainer:hover .Food1 button {
+    background: linear-gradient(322.84deg, #D76C00 10.28%, #D76C00 89.71%);
+    cursor: pointer;
+    box-shadow: -2px 4px 3px 1px rgba(43, 43, 43, 0.25);
+}
+
+.FoodContainer:hover .Food1 img {
+    left: -3px;
+    top: -135px;
+    width: 280;
+    height: 200;
+}
+
+.Food2 {
+    position: absolute;
+    top: 170px;
+    height: 280px;
+    width: 290px;
+    background: linear-gradient(322.84deg, #D76C00 10.28%, #D76C00 89.71%);
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 45px 75px 70px 65px;
+    transition: 0.2s;
+}
+
+.Food2 h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.Food2 li {
+    position: relative;
+    left: -30px;
+    top: -15px;
+    list-style: none;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.Food2 button {
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    left: 80px;
+    bottom: 25px;
+    border: none;
+    border-radius: 7px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #CEEAFF 100%);
+    font-weight: 700;
+}
+
+.Food2 img {
+    position: absolute;
+    left: 8px;
+    top: -125px;
+    width: 280px;
+    height: 200px;
+    transition: 0.2s;
+}
+
+.FoodContainer:hover {
+    border: 5px solid #CEEAFF;
+}
+
+.FoodContainer:hover .Food2 {
+    background: linear-gradient(180deg, #FFFFFF 0%, #CEEAFF 100%);
+    color: black;
+}
+
+.FoodContainer:hover .Food2 button {
+    background: linear-gradient(322.84deg, #D76C00 10.28%, #D76C00 89.71%);
+    cursor: pointer;
+    box-shadow: -2px 4px 3px 1px rgba(43, 43, 43, 0.25);
+}
+
+.FoodContainer:hover .Food2 img {
+    left: -3px;
+    top: -135px;
+    width: 300;
+    height: 220;
+}
+
+.Food3 {
+    position: absolute;
+    top: 170px;
+    height: 280px;
+    width: 290px;
+    background: linear-gradient(322.84deg, #D76C00 10.28%, #D76C00 89.71%);
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 45px 75px 70px 65px;
+    transition: 0.2s;
+}
+
+.Food3 h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.Food3 li {
+    position: relative;
+    left: -30px;
+    top: -15px;
+    list-style: none;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.Food3 button {
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    left: 80px;
+    bottom: 25px;
+    border: none;
+    border-radius: 7px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #CEEAFF 100%);
+    font-weight: 700;
+}
+
+.Food3 img {
+    position: absolute;
+    left: 8px;
+    top: -125px;
+    width: 250px;
+    height: 180px;
+    transition: 0.2s;
+}
+
+.FoodContainer:hover {
+    border: 5px solid #CEEAFF;
+}
+
+.FoodContainer:hover .Food3 {
+    background: linear-gradient(180deg, #FFFFFF 0%, #CEEAFF 100%);
+    color: black;
+}
+
+.FoodContainer:hover .Food3 button {
+    background: linear-gradient(322.84deg, #D76C00 10.28%, #D76C00 89.71%);
+    cursor: pointer;
+    box-shadow: -2px 4px 3px 1px rgba(43, 43, 43, 0.25);
+}
+
+.FoodContainer:hover .Food3 img {
+    left: -3px;
+    top: -135px;
+    width: 280;
+    height: 200;
+}
