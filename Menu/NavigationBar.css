@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/Background\ pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    font-family: Neuton, Inter, sans-serif;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    background-image: url(../images/Top\ Bar.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation span {
+    padding: 5px;
+    margin: 15px;
+    color: black;
+    font-weight: 400;
+
+}
+
+.navigation {
+    width: 380px;
+    padding: 25px 0px 0px 0px;
+    height: 70px;
+    box-sizing: border-box;
+    
+}
+
+.logo {
+    justify-self: flex-start;
+}
+
+.searchbar {
+    justify-self: center;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 15px;
+    width: 35%;
+    height: 30px;
+    padding: 3px 0px 0px 25px;
+    box-sizing: border-box;
+}
+
+.tagline {
+    font-weight: 700;
+    word-spacing: 1em;
+}
+

@@ -1,0 +1,146 @@
+body {
+    background-image: url(../images/Background\ pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Neuton, Inter, sans-serif;
+    color: whitesmoke;
+}
+
+.navbar {
+    background: url(../images/Top\ Bar.png);
+    background-size: cover;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.nav-item {
+    font-weight: 400;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+@media (max-width: 991px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+.navbar-brand {
+    width: 250px;
+}
+
+.navbar-brand img {
+    width: 40%;
+}
+
+.card {
+    background: none;
+    border: 5px solid #D76C00;
+    border-radius: 20px;
+    transition: 0.2s;
+    box-shadow: -2px 4px 3px 1px rgba(43, 43, 43, 0.25);
+}
+
+.card:hover {
+    border: 5px solid #CEEAFF;
+    transition: 0.2s;
+    box-shadow: -2px 4px 3px 1px rgba(43, 43, 43, 0.25);
+}
+
+.card-body {
+    background: linear-gradient(322.84deg, #D76C00 10.28%, #D76C00 89.71%);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.card:hover .card-body {
+    background: linear-gradient(180deg, #FFFFFF 0%, #CEEAFF 100%);
+    color: black;
+    transition: 0.2s;
+}
+
+.list-group-item {
+    background: none;
+    color: whitesmoke;
+    transition: 0.2s;
+}
+
+.card:hover .list-group-item {
+    color: black;
+    transition: 0.2s;
+}
+
+.burgerpic {
+    width: 80%;
+    position: relative;
+    left: 25px;
+    transition: 0.2s;
+}
+
+.card:hover .burgerpic {
+    left: -10px;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.sushipic {
+    position: relative;
+    left: 45px;
+    width: 77%;
+    transition: 0.2s;
+}
+
+.card:hover .sushipic {
+    left: -5px;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.tacopic {
+    position: relative;
+    width: 77%;
+    left: 25px;
+    transition: 0.2s;
+}
+
+.card:hover .tacopic {
+    left: -10px;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.card:hover .btn {
+    background: linear-gradient(163.04deg, #3E3E3E -2.33%, #201B1B 119.3%);
+    color: white;
+}
+
+
+
+.foodcontainer img {
+    float: left;
+    margin-right: 15px;
+    width: 250px;
+}
+
+
+.foodcontainer2 img {
+    float: right;
+    width: 250px;
+   
+}
+
+.foodcontainer4 img {
+    float: right;
+    width: 200px;
+    height: 200px;
+   
+}
+
+
+.foody button {
+    float: right;
+}
+
+
